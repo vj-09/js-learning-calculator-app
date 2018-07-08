@@ -1,0 +1,22 @@
+#resultt {
+
+     display : inline-block;
+     padding-left: 150px;
+/* background-color: lightgreen; */
+      padding-top: 70px;
+     vertical-align:top;
+    /*background-color: lightgreen;*/
+
+
+}
+#calc {
+
+display:inline-block;
+padding-top:10%;
+vertical-align:top;
+}
+#bar {
+  display:inline-block;
+
+/*border-left: thick solid #ff0000;*/
+}
