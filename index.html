@@ -5,8 +5,9 @@
   <body>
 
   <div>
-    <div id="calc">
-        <input type="text" id ='num1' placeholder="num 1" value = "1">
+    <div style="display:inline-block; padding-top:10%;
+    vertical-align:top;">
+        <!-- <input type="text" id ='num1' placeholder="num 1" value = "1">
 
         <select id = "sel">
             <option value="+">+</option>
@@ -21,7 +22,38 @@
         <div>
           <button onclick="myFunction()">Click me</button>
         </div>
-    <!-- <p id ='result'></p> -->
+        <br> -->
+        <div>
+          <label for="output">RESULT: </label><input type="textbox" name="output"></input>
+          <table style="width:100%">
+            <tr>
+              <td><button onclick="ref()">ref</button></td>
+              <td><button onclick="zero()">0</button></td>
+              <td><button onclick="add()">+</button></td>
+              <td><button onclick="sub()">-</button></td>
+            </tr>
+            <tr>
+              <td><button onclick="seven()">7</button></td>
+              <td><button onclick="eight()">8</button></td>
+              <td><button onclick="nine()">9</button></td>
+              <td><button onclick="mul()">*</button></td>
+            </tr>
+            <tr>
+              <td><button onclick="four()">4</button></td>
+              <td><button onclick="five()">5</button></td>
+              <td><button onclick="six()">6</button></td>
+              <td><button onclick="div()">/</button></td>
+            </tr>
+            <tr>
+              <td><button onclick="one()">1</button></td>
+              <td><button onclick="two()">2</button></td>
+              <td><button onclick="three()">3</button></td>
+              <td><button onclick="equal()">=</button></td>
+            </tr>
+
+          </table>
+
+        </div>
     </div>
     <div id="bar"> <hr width="1" size="500"></div>
     <div  id="resultt" ></div>
@@ -31,5 +63,6 @@
   <link rel="stylesheet" href="style.css" type="text/css"  />
 
   <script src="external.js"></script>
+  <script src="calc.js"></script>
 
 </html>
